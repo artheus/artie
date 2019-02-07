@@ -41,9 +41,9 @@ And run `go run .` to start up `artie`. Then test a deploy, running `mvn deploy`
 ## Todo
 
 - [x] ~~POC Maven repository~~
-- [] Support repotsitory modules
-- [] Support backend modules
-- [] Support configuration with artie.yml file
-- [] Support proxied repositories
-- [] Support repository grouping
-- [] Write additional repository modules (eg, docker, yum, npm, nuget, git, etc..)
+- [ ] Support repotsitory modules
+- [ ] Support backend modules
+- [ ] Support configuration with artie.yml file
+- [ ] Support proxied repositories
+- [ ] Support repository grouping
+- [ ] Write additional repository modules (eg, docker, yum, npm, nuget, git, etc..)
