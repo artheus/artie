@@ -8,9 +8,10 @@ __Right now, POC of Maven repo using Minio/S3 backend.__
 
 The goal for this project is to write a completely open-source modular Repository Manager which should be fully scalable.
 
-## Dependencies
+## Prerequisites
 
 * golang
+* maven
 
 ## Installation
 
@@ -27,11 +28,11 @@ Whenever you've got minio up and running. You can add this to your pom.xml
 
 ```xml
 <distributionManagement>
-	    <repository>
-		    <id>internal.repo</id>
-		    <name>local repo</name>
-		    <url>http://localhost:8000/maven-private</url>
-	</repository>
+  <repository>
+    <id>internal.repo</id>
+    <name>local repo</name>
+    <url>http://localhost:8000/maven-private</url>
+  </repository>
 </distributionManagement>
 ```
 
